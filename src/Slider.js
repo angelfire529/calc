@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {noUiSlider as slider} from 'nouislider';
 import './Slider.scss';
 
 class Slider extends Component {
@@ -27,7 +28,7 @@ class Slider extends Component {
     render() {
         return (
             <div className="slide-container">
-            <input type="range" className="range" min="1" max="40" default="5" onInput={this.handleChange}></input>
+            
             </div>
         );
     }
